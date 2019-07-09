@@ -26,7 +26,9 @@
 		<br>
 		<h1 class="text-center">BOARD ADD</h1>
 		<br>
-
+		<div class = "text-right">
+			<a href="<%=request.getContextPath()%>/jsp_board/boardList.jsp" class="btn btn-outline-primary"> 게시글 이동 </a>
+		</div>
 		<form
 			action="<%=request.getContextPath()%>/jsp_board/boardAddAction.jsp"
 			method="post" class="needs-validation">
